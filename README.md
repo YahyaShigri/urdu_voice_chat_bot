@@ -58,5 +58,5 @@ This project would not have been possible without the support and contributions 
 Sir Irfan Malik
 Dr. Sheraz
 Sir Haris
-I also want to express my sincere thanks to Bushra Akram for her invaluable content, which greatly assisted in the development of this project. Check out her YouTube channel for amazing tutorials: Bushra Akram.
+I also want to express my sincere thanks to Bushra Akram for her invaluable content, which greatly assisted in the development of this project. Check out her YouTube channel for amazing tutorials: Bushra Akram"""".
 
