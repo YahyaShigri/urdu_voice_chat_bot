@@ -61,14 +61,13 @@ langs = tts_langs().keys()
 # Function to check if the query is related to app creator information
 def is_app_related_query(query):
     keywords = [
-        "create", "develop", "make", "creator", "who", "author", "about you", 
-        "built", "designed", "constructed", "programmed", 
-        "engineered", "invented", "origin", "authored", 
-        "who made", "who created", "who built", "who designed", 
-        "who constructed", "who invented",
-        # Urdu keywords
-        "آپ", "کون", "بنایا", "تخلیق", "خالق", "مصنف", "ڈیزائنر", "کس نے"
-    ]
+    "who created you", "who developed you", "who made you", "who is your creator", 
+    "who is your author", "who built you", "who designed you", "who programmed you", 
+    "who invented you", "your origin", 
+    # Urdu keywords
+    "آپ کو کس نے بنایا", "آپ کا خالق کون ہے", "آپ کو کس نے تخلیق کیا", "آپ کو کس نے ڈیزائن کیا"
+]
+
     # Convert query to lowercase and check for keywords
     return any(keyword in query.lower() for keyword in keywords)
 
